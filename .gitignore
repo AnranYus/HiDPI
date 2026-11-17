@@ -1,0 +1,15 @@
+# Build products
+.build/
+.swiftpm/
+.buildenv/
+
+# macOS
+.DS_Store
+
+# Generated display-override artifacts (`hidpi override --out .`)
+DisplayProductID-*.plist
+install-override.sh
+
+# Local experiments
+/tmp-*
+/build/
